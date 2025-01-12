@@ -1,0 +1,211 @@
+body {
+    background-color: black;
+    color: white
+}
+
+.popularProduct {
+    border: 1px solid white;
+    background: none;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.popularProduct input {
+    margin: 10px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white
+}
+
+.popularProduct button {
+    margin: 10px;
+    background-color: grey;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.popularProduct h2 {
+    text-align: center;
+}
+
+.addNews {
+    border: 1px solid grey;
+    margin-top: 30px
+}
+
+.addNews input {
+    margin: 10px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 90%;
+    color: white
+}
+
+.addNews h2 {
+    text-align: center;
+}
+
+.addNews button {
+    margin: 10px;
+    background-color: grey;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.products{
+    border: 1px solid grey;
+    margin-top: 30px
+}
+
+.products input {
+    margin: 10px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 90%;
+    color: white
+}
+
+.products button {
+    margin: 10px;
+    background-color: grey;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.products h2 {
+    text-align: center;
+}
+
+.client-container {
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.client-container p {
+    margin: 20px
+}
+
+.deleteButton {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.client-container div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.done {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px
+}
+
+.deleteProduct {
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.deleteProduct h2 {
+    text-align: center;
+}
+
+.deleteProduct input {
+    background: none;
+    border: 1px solid white;
+    margin: 5px;
+    color: white;
+}
+
+.deleteProduct button {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    background-color: grey;
+}
+
+.deleteNews {
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.deleteNews button {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    background-color: grey;
+}
+
+.deleteNews input {
+    background: none;
+    border: 1px solid white;
+    margin: 5px;
+    color: white;
+}
+
+.deleteNews h2 {
+    text-align: center;
+}
+
+.deletePopularProducts {
+    width: 100%;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.deletePopularProducts input {
+    background: none;
+    border: 1px solid white;
+    margin: 5px;
+    color: white;
+}
+
+.deletePopularProducts button {
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    background-color: grey;
+}
+
+.deletePopularProducts h2 {
+    text-align: center;
+}
